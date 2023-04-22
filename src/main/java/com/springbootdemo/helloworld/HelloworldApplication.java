@@ -18,7 +18,7 @@ public class HelloworldApplication {
 class DemoController{
 	@GetMapping("print/{msg}")
 	public String print(@PathVariable(value = "") String msg){
-		return "Helloo "+msg;
+		return "Hello Welcome to our Java SpringBoot Application - "+msg;
 	}
 
 }
