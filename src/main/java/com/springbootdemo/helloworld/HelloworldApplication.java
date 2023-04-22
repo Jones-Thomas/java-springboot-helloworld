@@ -18,7 +18,8 @@ public class HelloworldApplication {
 class DemoController{
 	@GetMapping("print/{msg}")
 	public String print(@PathVariable(value = "") String msg){
-		return "Helloo "+msg;
+//		return "Helloo "+msg;
+		return""
 	}
 
 }
